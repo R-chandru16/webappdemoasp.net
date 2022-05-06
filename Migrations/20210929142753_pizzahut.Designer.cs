@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PizzaHut.Models;
 
-namespace PizzaHutApplication.Migrations
+namespace PizzaHut.Migrations
 {
     [DbContext(typeof(PizzaHutContext))]
-    [Migration("20210929111717_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20210929142753_pizzahut")]
+    partial class pizzahut
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

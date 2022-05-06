@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace PizzaHutApplication.Migrations
+namespace PizzaHut.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class pizzahut : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

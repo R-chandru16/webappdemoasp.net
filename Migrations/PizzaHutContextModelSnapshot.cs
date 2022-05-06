@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PizzaHut.Models;
 
-namespace PizzaHutApplication.Migrations
+namespace PizzaHut.Migrations
 {
     [DbContext(typeof(PizzaHutContext))]
     partial class PizzaHutContextModelSnapshot : ModelSnapshot
